@@ -4,24 +4,24 @@ import HeartEmoji from '../../img/heartemoji.png'
 import Glasses from '../../img/glasses.png'
 import Humble from '../../img/humble.png'
 import Card from '../Card/Card'
-// import Resume from './resume.pdf'
+import Resume from './Ashish_Deshmuk_Exp_git.pdf'
 
 const Services = () => {
   return (
     <div className="services">
         {/* left side div  */}
         <div className="awesome">
-            <span>My Awesome</span>
-            <span>services</span>
-            <span>My Awesome</span>
+            <span>About Me</span>
+            <span> </span>
+            {/* <span>My Awesome</span> */}
             <span>
                 I am good in React js, Redux, 
                 <br/>
                 node js and javascript
             </span>
-            {/* <a href={Resume} download>  */}
+            <a href={Resume} download> 
             <button className=" button s-button">Download CV</button>
-            {/* </a> */}
+            </a>
             <div className="blur s-blur1" style={{background: '#ABF1FF94'}}></div>
         </div>
         {/* right side div  */}

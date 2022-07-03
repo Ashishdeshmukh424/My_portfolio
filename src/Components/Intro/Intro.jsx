@@ -18,7 +18,7 @@ function Intro() {
             <div className="i-name">
                 <span>Hi! I Am</span>
                 <span>Ashish Deshmukh</span>
-                <span>Introduction full text</span>
+                {/* <span>Introduction full text</span> */}
             </div>
             <button className="button i-button">Hire me</button>
 
@@ -45,7 +45,7 @@ function Intro() {
                 <FloatingDiv image={Crown} text1='web' text2='Developer'/>
             </div>
             <div style={{top: '18rem', left: '0rem'}}>
-                <FloatingDiv image={thumbup} text1='Best Design' text2='Award' />
+                <FloatingDiv image={thumbup} text1='Good in' text2='NodeJS' />
             </div>
             {/* blur divs */}
             <div className="blur" style={{background: 'rgb(238 210 255)'}}></div>
